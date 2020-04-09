@@ -140,7 +140,7 @@ def predict_data(conf):
 
 
 if __name__ == "__main__":
-    con_path = r'/data/mashutian/workspace/NER/data/con.json'
+    con_path = r'XXXXX'
     config = Config(config_file=con_path)
     os.environ['CUDA_VISIBLE_DEVICES'] = str(config.visible_device_list)
     torch.manual_seed(2020)
